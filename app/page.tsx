@@ -22,12 +22,11 @@ export default function Home() {
         </Link>
       </section>
 
-      <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {[
-          { name: '생태계 실험실', image: '/ecosystem-lab.jpg', link: '/projects/ecosystem-lab' },
+          { name: '생태계 실험실', image: '/ecodynamics-lab.jpg', link: '/projects/ecodynamics-lab' },
           { name: 'NoViral', image: '/noviral.jpg', link: '/projects/noviral' },
           { name: 'OpenMarket', image: '/openmarket.jpg', link: '/projects/openmarket' },
-          { name: 'SciViz', image: '/sciviz.jpg', link: '/projects/sciviz' },
         ].map((project) => (
           <div key={project.name} className="bg-white rounded-lg shadow-md overflow-hidden">
             <Image src={project.image} alt={project.name} width={300} height={200} className="w-full h-40 object-cover" />

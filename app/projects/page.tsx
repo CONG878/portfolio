@@ -4,8 +4,8 @@ const projects = [
   {
     name: '생태계 실험실',
     description: '생태계 모의 실험을 위한 웹 애플리케이션',
-    image: '/ecosystem-lab.jpg',
-    link: '/projects/ecosystem-lab',
+    image: '/ecodynamics-lab.jpg',
+    link: '/projects/ecodynamics-lab',
     technologies: ['Svelte', 'Firebase', 'Chart.js'],
   },
   {

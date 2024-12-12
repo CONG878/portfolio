@@ -1,0 +1,56 @@
+.eco-hero {
+    background-color: #e6f7ff;
+    color: #003366;
+}
+
+.eco-button {
+    background-color: #4caf50;
+    color: white;
+}
+
+.eco-button:hover {
+    background-color: #45a049;
+}
+
+.eco-button-outline {
+    color: #4caf50;
+    border-color: #4caf50;
+}
+
+.eco-button-outline:hover {
+    background-color: #4caf50;
+    color: white;
+}
+
+.eco-badge {
+    background-color: #e6f7ff;
+    color: #003366;
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+}
+
+.eco-card {
+    border: 1px solid #e6f7ff;
+    border-radius: 8px;
+}
+
+.eco-card-title {
+    color: #003366;
+}
+
+.eco-card-content {
+    color: #333;
+}
+
+.eco-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .eco-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
