@@ -1,0 +1,58 @@
+.noviral-hero {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.noviral-button {
+    background-color: #212529;
+    color: white;
+}
+
+.noviral-button:hover {
+    background-color: #343a40;
+}
+
+.noviral-button-outline {
+    color: #212529;
+    border-color: #212529;
+}
+
+.noviral-button-outline:hover {
+    background-color: #212529;
+    color: white;
+}
+
+.noviral-badge {
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+}
+
+.noviral-card {
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+}
+
+.noviral-card-highlight {
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+.noviral-card-title {
+    color: #212529;
+}
+
+.noviral-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .noviral-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
