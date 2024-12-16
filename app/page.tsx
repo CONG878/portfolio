@@ -13,7 +13,7 @@ export default function Home() {
           <h1 className="text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-600">
             function 개발자(데이터, 방정식) &#123;
             <br />
-            return "쾌적한 사용자 경험";
+            return &quot;쾌적한 사용자 경험&quot;;
             <br />
             &#125;
           </h1>
