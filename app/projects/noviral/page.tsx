@@ -108,9 +108,9 @@ export default function NoViral() {
                 </ul>
               </div>
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-                <span>진행 시간:</span>
+                <span>진행 시각:</span>
                 <Badge variant="outline">09:04 - 10:17</Badge>
-                <span>발표 시간:</span>
+                <span>발표 시각:</span>
                 <Badge variant="outline">10:40</Badge>
               </div>
             </div>

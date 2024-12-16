@@ -18,7 +18,7 @@ export default function EcodynamicsLab() {
           <Button className="eco-button" asChild>
             <Link href="https://ecodynamicslab.web.app/#/" target="_blank" rel="noopener noreferrer">
               <ExternalLink className="mr-2 h-4 w-4" />
-              시뮬레이터 시작하기
+              실험실 입장하기
             </Link>
           </Button>
           <Button variant="outline" className="eco-button-outline" asChild>

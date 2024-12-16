@@ -4,23 +4,23 @@ const projects = [
   {
     name: '생태계 실험실',
     description: '생태계 모의 실험을 위한 웹 애플리케이션',
-    image: '/ecodynamics-lab.jpg',
+    image: '/ecodynamics-lab.png',
     link: '/projects/ecodynamics-lab',
     technologies: ['Svelte', 'Firebase', 'Chart.js'],
   },
   {
     name: 'NoViral',
     description: '바이럴 마케팅 없는 상품 정보 공유 플랫폼',
-    image: '/noviral.jpg',
+    image: '/noviral.png',
     link: '/projects/noviral',
-    technologies: ['React', 'Vite', 'JIRA'],
+    technologies: ['React', 'JIRA'],
   },
   {
     name: 'OpenMarket',
     description: '기본적인 전자상거래 플랫폼',
-    image: '/openmarket.jpg',
+    image: '/openmarket.png',
     link: '/projects/openmarket',
-    technologies: ['React', 'API Integration'],
+    technologies: ['Pure JS', 'API Integration'],
   },
 ]
 

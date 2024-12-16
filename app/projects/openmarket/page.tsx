@@ -43,7 +43,7 @@ export default function OpenMarket() {
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">기술 스택</h2>
         <div className="flex flex-wrap gap-2">
-          {['React', 'REST API', 'LocalStorage', 'CSS Module'].map((tech) => (
+          {['Pure JS', 'REST API', 'CSS Module'].map((tech) => (
             <span key={tech} className="market-badge">{tech}</span>
           ))}
         </div>
